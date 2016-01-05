@@ -3,7 +3,7 @@
 
 # NB! Set your site's url, otherwise stuff will break :)
 
-url: "https://panossakkos.github.io"
+url: "https://georgeburgess0827.github.io"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
@@ -12,11 +12,11 @@ url: "https://panossakkos.github.io"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
-baseurl: /personal-jekyll-theme
+baseurl:
 
 # Google tracking id to track your visitors
 
-google-tracking-id: "UA-35880426-4"
+google-tracking-id: ""
 
 # Forces https everywhere in your website, except when you serve it locally
 # If you are not hosted on Github Pages, and your host doesn't support https
@@ -29,20 +29,21 @@ force-https: True
 #############
 
 lang: "en"
-author: "John Smith"
-title: "{ John Smith }"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
-favicon: "/img/favicon.ico"
-404-img: "/img/labtocat.png"
-
+author: "George Burgess"
+title: "{ George Burgess }"
+description: "Blog and website of George Burgess, blogging mainly for tech, Music, Movies. Opinions expressed are mine."
+keywords: "Burgess, George, Personal, jekyll, Blog, Website"
+favicon: "/img/favicon.png"
+404-img: ""
+# new 404 #
+505-img: "/img/404.jpg"
 ################
 # Header layout #
 ################
 
-black-favicon: "/img/black-lab-glass.ico"
+black-favicon: "/img/alien.png"
 
-background-img: "../img/intro-bg.jpg"
+background-img: "../img/skyline.jpg"
 
 ##############################
 # Dynamic Text on the Header #
@@ -56,10 +57,12 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+  - text: "Failure is the condiment that gives success its flavor. -Truman Capote"
+  - text: "If you fall, I’ll always be there. - The Floor"
+  - text: "Even if you are on the right track, you’ll get run over if you just sit there. -Will Rogers"
 
-me-img: "/img/jetpacktocat.png"
+
+me-img: "/img/profile.jpg"
 
 ################
 # Web app mode #
@@ -87,39 +90,63 @@ paginate: 5
 email-share: True
 fb-share: True
 twitter-share: True
-linkedin-share: True
+linkedin-share: False
 reddit-share: True
-google-plus-share: True
+google-plus-share: False
 tumblr-share: True
-pinterest-share: True
-pocket-share: True
-vkontakte-share: True
+pinterest-share: False
+pocket-share: False
+vkontakte-share: False
 
-disqus-shortname: "panossakkos"
+disqus-shortname: ""
 
 syntax-highlight: True
+
+############
+# skills#
+############
+# skills:
+#   - name: "Communication"
+#     value: '9'
+#   - name: "Organization"
+#     value: '7'
+#   - name: "Learning"
+#     value: '10'
+#   - name: "Teaching"
+#     value: '6'
+#   - name: "Planning"
+#     value: '7'
+#   - name: "Visual Design"
+#     value: '5'
+#   - name: "UXD Design"
+#     value: '8'
+#   - name: "Programming"
+#     value: '6'
 
 ############
 # Timeline #
 ############
 
 events:
-  - image: "/img/timeline/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
-  - image: "/img/timeline/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
+  - image: "/img/timeline/Timeline4.jpg"
+    date: "August 2015 - Today"
+    description: "Started the UXD M.S Program @ Kent State"
+  - image: "/img/timeline/Timeline3.jpg"
+    date: "Feburary 2015 - Today"
+    description: "Landed My First Job As an Associate Software Engineer"
+  - image: "/img/timeline/960.jpg"
+    date: "August 2010 - December 2014"
+    description: "Earned my B.S in Computer Science @ Tennessee State"
 
 # First image of the Timeline
 
-timeline-img: "/img/timeline/default.png"
+timeline-img: "/img/timeline/Timeline1.jpg"
 
 ###########
 # Contact #
 ###########
 
-email: "your@email.here"
+email: "contact@georgeburgessjr.com"
 
 ##################
 # Social Buttons #
@@ -127,21 +154,25 @@ email: "your@email.here"
 
 social:
   - title: "facebook"
-    url: "https://facebook.com/"
+    url: "https://facebook.com/georgeburgessjr"
   - title: "twitter"
-    url: "https://twitter.com/"
+    url: "https://twitter.com/GeorgeBurgesJr"
+  - title: "instagram"
+    url: "https://instagram.com/georgeburgessjr"
+  - title: "linkedin"
+    url: "https://www.linkedin.com/in/georgeburgessjr"
   - title: "github"
-    url: "https://github.com/PanosSakkos/personal-jekyll-theme"
-  - title: "bitcoin"
-    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
+    url: "https://github.com/GeorgeBurgess0827"
+  - title: "tumblr"
+    url: "http://georgeburgess.tumblr.com"
   - title: "rss"
     url: "/feed.xml"
 
-############
-# 404 page #
-############
+##################
+# 505 (404) page #
+##################
 
-404-img: "/img/labtocat.png"
+505-img: "/img/404.jpg"
 
 ################################################################################
 

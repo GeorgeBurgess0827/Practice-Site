@@ -5,8 +5,28 @@
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
       {{ page.content | markdownify }}
+
+        {% if site.skills %}
+      	  <div class="skill-lockup">
+            <div><h3>My skills</h3></div>
+
+      	    {% for skill in site.skills %}
+      	      <div class="skill-unit">
+      	        <div class="skill-label">{{ skill.name }}</div>
+      	        <div class="skill-icons skill-{{ skill.value }}">
+      	          {% for i in (1..10) %}
+      	            <span></span>
+      	          {% endfor %}
+      	        </div>
+      	      </div>
+      	    {% endfor %}
+      	  </div>
+          {% endif %}
+
     </div>
   </div>
+
+
 </section>
 
 <!-- About End -->
